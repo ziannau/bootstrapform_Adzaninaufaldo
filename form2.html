@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seminar cihuy</title>
+</head>
+<body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<fieldset  class="card shadow px-5 container">
+    <legend>Create new seminar</legend>
+<form>
+  <div class="form-group row">
+    <label for="kode" class="col-2 col-form-label">Kode</label> 
+    <div class="col-4">
+      <input id="kode" name="kode" type="text" required="required" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="kegiatan" class="col-2 col-form-label">Nama Kegiatan</label> 
+    <div class="col-4">
+      <input id="kegiatan" name="kegiatan" type="text" required="required" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="mulai" class="col-2 col-form-label">Tanggal Mulai</label> 
+    <div class="col-4">
+      <div class="input-group">
+        <input id="date" name="date" type="date" required="required" class="form-control"> 
+        <div class="input-group-append">
+          <div class="input-group-text">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="akhir" class="col-2 col-form-label">Tanggal Akhir</label> 
+    <div class="col-4">
+      <div class="input-group">
+        <input id="date" name="date" type="date" required="required" class="form-control"> 
+        <div class="input-group-append">
+          <div class="input-group-text">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="biaya" class="col-2 col-form-label">Biaya</label> 
+    <div class="col-4">
+      <div class="input-group">
+        <input id="biaya" name="biaya" type="text" required="required" class="form-control"> 
+        <div class="input-group-append">
+          <div class="input-group-text">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="tempat" class="col-2 col-form-label">Tempat</label> 
+    <div class="col-4">
+      <div class="input-group">
+        <input id="tempat" name="tempat" type="text" required="required" class="form-control"> 
+        <div class="input-group-append">
+          <div class="input-group-text">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="latitude" class="col-2 col-form-label">Latitude</label> 
+    <div class="col-4">
+      <input id="latitude" name="latitude" type="text" required="required" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="longtitude" class="col-2 col-form-label">Longtitude</label> 
+    <div class="col-4">
+      <input id="longtitude" name="longtitude" type="text" required="required" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="kegiatan" class="col-2 col-form-label">Jenis Kegiatan</label> 
+    <div class="col-4">
+      <select id="kegiatan" name="kegiatan" required="required" class="custom-select">
+        <option value="seminar">Seminar</option>
+        <option value="rapat">family gathering</option>
+        <option value="qualityTime">formal</option>
+        <option value="rekreasi">camping</option>
+      </select>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="pic" class="col-2 col-form-label">PIC</label> 
+    <div class="col-4">
+      <input id="pic" name="pic" type="text" required="required" class="form-control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="deskripsi" class="col-2 col-form-label">Deskripsi</label> 
+    <div class="col-4">
+      <textarea id="deskripsi" name="deskripsi" cols="40" rows="3" class="form-control" required="required"></textarea>
+    </div>
+  </div> 
+  <div class="form-group row">
+    <div class="offset-4 col-4">
+      <button name="submit" type="submit" class="btn btn-primary">Simpan</button>
+    </div>
+  </div>
+  </fieldset>
+</form>
+</body>
+</html>
